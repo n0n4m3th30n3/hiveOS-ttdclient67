@@ -42,7 +42,7 @@ get_log_time_diff() {
 # MAIN script body
 #######################
 
-log_name="/var/log/miner/my-miner.log"  # Change this to your actual log file path
+log_name="/var/log/miner/${MINER_NAME}/${MINER_NAME}"  # Change this to your actual log file path
 ver="67.13"  # Remplacer par votre logique d'obtention de version
 
 # Initialize variables
